@@ -64,6 +64,7 @@
 			children = (
 				F817C94A1CCD406D0013B68B /* AppDelegate.swift */,
 				F817C95C1CCD423F0013B68B /* ItemsViewController.swift */,
+				F8838EA21CF18F8300E17E05 /* DetailViewController.swift */,
 				F817C95E1CCD43FB0013B68B /* Item.swift */,
 				F8D89D651CCDE46100658D1C /* ItemStore.swift */,
 				F817C94E1CCD406D0013B68B /* Main.storyboard */,
@@ -71,7 +72,6 @@
 				F817C9531CCD406D0013B68B /* LaunchScreen.storyboard */,
 				F817C9561CCD406D0013B68B /* Info.plist */,
 				F89E9D901CE89E7B00F14327 /* ItemCell.swift */,
-				F8838EA21CF18F8300E17E05 /* DetailViewController.swift */,
 			);
 			path = BNRHomepwner;
 			sourceTree = "<group>";
