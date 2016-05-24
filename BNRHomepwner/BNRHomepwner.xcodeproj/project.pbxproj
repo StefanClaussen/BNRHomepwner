@@ -13,6 +13,7 @@
 		F817C9551CCD406D0013B68B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F817C9531CCD406D0013B68B /* LaunchScreen.storyboard */; };
 		F817C95D1CCD423F0013B68B /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817C95C1CCD423F0013B68B /* ItemsViewController.swift */; };
 		F817C95F1CCD43FB0013B68B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817C95E1CCD43FB0013B68B /* Item.swift */; };
+		F84976B61CF4987B00126264 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84976B51CF4987B00126264 /* ImageStore.swift */; };
 		F8838EA31CF18F8300E17E05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8838EA21CF18F8300E17E05 /* DetailViewController.swift */; };
 		F89E9D911CE89E7B00F14327 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E9D901CE89E7B00F14327 /* ItemCell.swift */; };
 		F8D89D661CCDE46100658D1C /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D89D651CCDE46100658D1C /* ItemStore.swift */; };
@@ -27,6 +28,7 @@
 		F817C9561CCD406D0013B68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F817C95C1CCD423F0013B68B /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		F817C95E1CCD43FB0013B68B /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F84976B51CF4987B00126264 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		F8838EA21CF18F8300E17E05 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F89E9D901CE89E7B00F14327 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		F8D89D651CCDE46100658D1C /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				F817C9531CCD406D0013B68B /* LaunchScreen.storyboard */,
 				F817C9561CCD406D0013B68B /* Info.plist */,
 				F89E9D901CE89E7B00F14327 /* ItemCell.swift */,
+				F84976B51CF4987B00126264 /* ImageStore.swift */,
 			);
 			path = BNRHomepwner;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				F8D89D661CCDE46100658D1C /* ItemStore.swift in Sources */,
 				F8838EA31CF18F8300E17E05 /* DetailViewController.swift in Sources */,
 				F817C94B1CCD406D0013B68B /* AppDelegate.swift in Sources */,
+				F84976B61CF4987B00126264 /* ImageStore.swift in Sources */,
 				F89E9D911CE89E7B00F14327 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
