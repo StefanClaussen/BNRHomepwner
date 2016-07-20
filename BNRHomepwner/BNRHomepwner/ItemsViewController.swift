@@ -10,13 +10,13 @@ import UIKit
 
 class ItemsViewController: UITableViewController {
     
-    var itemStore: ItemStore!
-    var imageStore: ImageStore!
+    var itemStore = ItemStore()
+    var imageStore = ImageStore()
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        navigationItem.leftBarButtonItem = editButtonItem() 
+        navigationItem.leftBarButtonItem = editButtonItem()
     }
     
     override func viewDidLoad() {
@@ -24,6 +24,19 @@ class ItemsViewController: UITableViewController {
         
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 65
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(willEnterBackground), name: UIApplicationDidEnterBackgroundNotification, object: nil)
+    }
+    
+    func willEnterBackground() {
+        let success = itemStore.saveChanges()
+        if (success) {
+            print("Saved all of the Items")
+        }
+        else {
+            print("Could not save any of the Items")
+        }
+        
     }
     
     override func viewWillAppear(animated: Bool) {
